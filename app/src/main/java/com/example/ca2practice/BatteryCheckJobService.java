@@ -39,7 +39,7 @@ public class BatteryCheckJobService extends JobService {
 
         /* Check if Battery Level is 98 and Device is  Charging to raise Alarm and Notification */
 
-        if (getBatteryLevel(batteryStatus) == 98 && isCharging(batteryStatus)) {
+        if (getBatteryLevel(batteryStatus) == 100 && isCharging(batteryStatus)) {
             setAlarm();
             displayNotification("Battery is 98%");
 
