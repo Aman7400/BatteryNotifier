@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name"> Battery  Notifier</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="battery_check_service">Battery Check Service</string>
+</resources>
